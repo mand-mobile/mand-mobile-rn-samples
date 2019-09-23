@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		51CBB2820C1B465384AAF665 /* DIN Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 408BAD437EA44ECFA4202F38 /* DIN Medium.ttf */; };
+		55A9A43A848346D594642095 /* FD+_Number.otf in Resources */ = {isa = PBXBuildFile; fileRef = CA332E7560274C37A507A7E6 /* FD+_Number.otf */; };
+		94DD006522D5E17C00D93DFC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DD006422D5E17C00D93DFC /* AppDelegate.m */; };
+		94DD006B22D5E17C00D93DFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DD006922D5E17C00D93DFC /* Main.storyboard */; };
+		94DD006D22D5E17D00D93DFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94DD006C22D5E17D00D93DFC /* Assets.xcassets */; };
+		94DD007022D5E17D00D93DFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94DD006E22D5E17D00D93DFC /* LaunchScreen.storyboard */; };
+		94DD007322D5E17D00D93DFC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 94DD007222D5E17D00D93DFC /* main.m */; };
+		DCFFA02CBC17654FADD75BF5 /* libPods-MandMobileRNSamples.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4983261B78FF14A2077125 /* libPods-MandMobileRNSamples.a */; };
+		EE9668F158804B3FB50F9720 /* mand-mobile.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0B96710034AD46ADAB9E16C0 /* mand-mobile.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0B96710034AD46ADAB9E16C0 /* mand-mobile.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "mand-mobile.ttf"; path = "../node_modules/mand-mobile-rn/src/assets/fonts/mand-mobile.ttf"; sourceTree = "<group>"; };
+		408BAD437EA44ECFA4202F38 /* DIN Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DIN Medium.ttf"; path = "../node_modules/mand-mobile-rn/src/assets/fonts/DIN Medium.ttf"; sourceTree = "<group>"; };
+		94DD006022D5E17C00D93DFC /* MandMobileRNSamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MandMobileRNSamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		94DD006322D5E17C00D93DFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		94DD006422D5E17C00D93DFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		94DD006A22D5E17C00D93DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		94DD006C22D5E17D00D93DFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		94DD006F22D5E17D00D93DFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		94DD007122D5E17D00D93DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94DD007222D5E17D00D93DFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B2C6B9DD77FFF54439D217B6 /* Pods-MandMobileRNSamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MandMobileRNSamples.release.xcconfig"; path = "Pods/Target Support Files/Pods-MandMobileRNSamples/Pods-MandMobileRNSamples.release.xcconfig"; sourceTree = "<group>"; };
+		CA332E7560274C37A507A7E6 /* FD+_Number.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "FD+_Number.otf"; path = "../node_modules/mand-mobile-rn/src/assets/fonts/FD+_Number.otf"; sourceTree = "<group>"; };
+		DF4983261B78FF14A2077125 /* libPods-MandMobileRNSamples.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MandMobileRNSamples.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA2A026DF19B2B34929FC18E /* Pods-MandMobileRNSamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MandMobileRNSamples.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MandMobileRNSamples/Pods-MandMobileRNSamples.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		94DD005D22D5E17C00D93DFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DCFFA02CBC17654FADD75BF5 /* libPods-MandMobileRNSamples.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		838C263164E70237C89020C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EA2A026DF19B2B34929FC18E /* Pods-MandMobileRNSamples.debug.xcconfig */,
+				B2C6B9DD77FFF54439D217B6 /* Pods-MandMobileRNSamples.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8B10DE4F922D4B8DB7896FBE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				408BAD437EA44ECFA4202F38 /* DIN Medium.ttf */,
+				CA332E7560274C37A507A7E6 /* FD+_Number.otf */,
+				0B96710034AD46ADAB9E16C0 /* mand-mobile.ttf */,
+			);
+			name = Resources;
+			path = "";
+			sourceTree = "<group>";
+		};
+		94DD005722D5E17C00D93DFC = {
+			isa = PBXGroup;
+			children = (
+				94DD006222D5E17C00D93DFC /* MandMobileRNSamples */,
+				94DD006122D5E17C00D93DFC /* Products */,
+				838C263164E70237C89020C5 /* Pods */,
+				BDEBEB403C4FF494BDF503BD /* Frameworks */,
+				8B10DE4F922D4B8DB7896FBE /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		94DD006122D5E17C00D93DFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				94DD006022D5E17C00D93DFC /* MandMobileRNSamples.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		94DD006222D5E17C00D93DFC /* MandMobileRNSamples */ = {
+			isa = PBXGroup;
+			children = (
+				94DD006322D5E17C00D93DFC /* AppDelegate.h */,
+				94DD006422D5E17C00D93DFC /* AppDelegate.m */,
+				94DD006922D5E17C00D93DFC /* Main.storyboard */,
+				94DD006C22D5E17D00D93DFC /* Assets.xcassets */,
+				94DD006E22D5E17D00D93DFC /* LaunchScreen.storyboard */,
+				94DD007122D5E17D00D93DFC /* Info.plist */,
+				94DD007222D5E17D00D93DFC /* main.m */,
+			);
+			path = MandMobileRNSamples;
+			sourceTree = "<group>";
+		};
+		BDEBEB403C4FF494BDF503BD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DF4983261B78FF14A2077125 /* libPods-MandMobileRNSamples.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		94DD005F22D5E17C00D93DFC /* MandMobileRNSamples */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 94DD007622D5E17D00D93DFC /* Build configuration list for PBXNativeTarget "MandMobileRNSamples" */;
+			buildPhases = (
+				9F79B9329E23FE01B2B5A829 /* [CP] Check Pods Manifest.lock */,
+				94DD005C22D5E17C00D93DFC /* Sources */,
+				94DD005D22D5E17C00D93DFC /* Frameworks */,
+				94DD005E22D5E17C00D93DFC /* Resources */,
+				94DD007922D5E2FD00D93DFC /* Bundle React Native code and images */,
+				C2A71816B7A144129ADA3EA0 /* [CP] Embed Pods Frameworks */,
+				0E1EAF7C8BB68673B36929E2 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MandMobileRNSamples;
+			productName = MandMobileRNSamples;
+			productReference = 94DD006022D5E17C00D93DFC /* MandMobileRNSamples.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		94DD005822D5E17C00D93DFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = xiaojiukeji;
+				TargetAttributes = {
+					94DD005F22D5E17C00D93DFC = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 94DD005B22D5E17C00D93DFC /* Build configuration list for PBXProject "MandMobileRNSamples" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 94DD005722D5E17C00D93DFC;
+			productRefGroup = 94DD006122D5E17C00D93DFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				94DD005F22D5E17C00D93DFC /* MandMobileRNSamples */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		94DD005E22D5E17C00D93DFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DD007022D5E17D00D93DFC /* LaunchScreen.storyboard in Resources */,
+				94DD006D22D5E17D00D93DFC /* Assets.xcassets in Resources */,
+				94DD006B22D5E17C00D93DFC /* Main.storyboard in Resources */,
+				51CBB2820C1B465384AAF665 /* DIN Medium.ttf in Resources */,
+				55A9A43A848346D594642095 /* FD+_Number.otf in Resources */,
+				EE9668F158804B3FB50F9720 /* mand-mobile.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E1EAF7C8BB68673B36929E2 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MandMobileRNSamples/Pods-MandMobileRNSamples-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/../../node_modules/mand-mobile-rn/src/assets/fonts/DIN Medium.ttf",
+				"${PODS_ROOT}/../../node_modules/mand-mobile-rn/src/assets/fonts/FD+_Number.otf",
+				"${PODS_ROOT}/../../node_modules/mand-mobile-rn/src/assets/fonts/Localizable.strings",
+				"${PODS_ROOT}/../../node_modules/mand-mobile-rn/src/assets/fonts/mand-mobile.ttf",
+				"${PODS_ROOT}/../../node_modules/mand-mobile-rn/src/assets/fonts/selection.json",
+				"${PODS_ROOT}/../../node_modules/mand-mobile-rn/src/assets/image/md_ic_stepper_add.png",
+				"${PODS_ROOT}/../../node_modules/mand-mobile-rn/src/assets/image/md_ic_stepper_add@2x.png",
+				"${PODS_ROOT}/../../node_modules/mand-mobile-rn/src/assets/image/md_ic_stepper_sub.png",
+				"${PODS_ROOT}/../../node_modules/mand-mobile-rn/src/assets/image/md_ic_stepper_sub@2x.png",
+				"${PODS_ROOT}/../../node_modules/mand-mobile-rn/src/assets/image/md_image_picker_arrow@2x.png",
+				"${PODS_ROOT}/../../node_modules/mand-mobile-rn/src/assets/image/md_image_picker_blue_icon@2x.png",
+				"${PODS_ROOT}/../../node_modules/mand-mobile-rn/src/assets/image/md_image_picker_navi_back@2x.png",
+				"${PODS_ROOT}/../../node_modules/mand-mobile-rn/src/assets/image/md_image_picker_original_default@2x.png",
+				"${PODS_ROOT}/../../node_modules/mand-mobile-rn/src/assets/image/md_image_picker_original_select@2x.png",
+				"${PODS_ROOT}/../../node_modules/mand-mobile-rn/src/assets/image/md_image_picker_take_picture@2x.png",
+				"${PODS_ROOT}/../../node_modules/mand-mobile-rn/src/assets/image/md_image_picker_unselect@2x.png",
+				"${PODS_ROOT}/../../node_modules/mand-mobile-rn/src/assets/image/md_image_picker_unselect_gray@2x.png",
+				"${PODS_ROOT}/../../node_modules/mand-mobile-rn/src/assets/image/md_keyboard_delete@2x.png",
+				"${PODS_ROOT}/../../node_modules/mand-mobile-rn/src/assets/image/md_keyboard_delete@3x.png",
+				"${PODS_ROOT}/../../node_modules/mand-mobile-rn/src/assets/image/md_keyboard_pack @3x.png",
+				"${PODS_ROOT}/../../node_modules/mand-mobile-rn/src/assets/image/md_keyboard_pack@2x.png",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Feather.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf",
+				"${PODS_ROOT}/../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MandMobileRNSamples/Pods-MandMobileRNSamples-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94DD007922D5E2FD00D93DFC /* Bundle React Native code and images */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Bundle React Native code and images";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export NODE_BINARY=node\n../node_modules/react-native/scripts/react-native-xcode.sh\n";
+		};
+		9F79B9329E23FE01B2B5A829 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MandMobileRNSamples-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C2A71816B7A144129ADA3EA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MandMobileRNSamples/Pods-MandMobileRNSamples-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		94DD005C22D5E17C00D93DFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94DD007322D5E17D00D93DFC /* main.m in Sources */,
+				94DD006522D5E17C00D93DFC /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		94DD006922D5E17C00D93DFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94DD006A22D5E17C00D93DFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		94DD006E22D5E17D00D93DFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				94DD006F22D5E17D00D93DFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		94DD007422D5E17D00D93DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		94DD007522D5E17D00D93DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		94DD007722D5E17D00D93DFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA2A026DF19B2B34929FC18E /* Pods-MandMobileRNSamples.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 653FGKQN5U;
+				INFOPLIST_FILE = MandMobileRNSamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaojukeji.finance.inhouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = manhattan_common_dev;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		94DD007822D5E17D00D93DFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2C6B9DD77FFF54439D217B6 /* Pods-MandMobileRNSamples.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = HCTZ8VKJ47;
+				INFOPLIST_FILE = MandMobileRNSamples/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaojukeji.finance.inhouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = finance_inhouse;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		94DD005B22D5E17C00D93DFC /* Build configuration list for PBXProject "MandMobileRNSamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94DD007422D5E17D00D93DFC /* Debug */,
+				94DD007522D5E17D00D93DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		94DD007622D5E17D00D93DFC /* Build configuration list for PBXNativeTarget "MandMobileRNSamples" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				94DD007722D5E17D00D93DFC /* Debug */,
+				94DD007822D5E17D00D93DFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 94DD005822D5E17C00D93DFC /* Project object */;
+}

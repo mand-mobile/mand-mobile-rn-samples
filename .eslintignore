@@ -1,0 +1,6 @@
+src/*
+dist/*
+node_modules/*
+android/*
+ios/*
+tsconfig.json
