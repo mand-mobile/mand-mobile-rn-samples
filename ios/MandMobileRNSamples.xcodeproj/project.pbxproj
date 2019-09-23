@@ -19,8 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0B96710034AD46ADAB9E16C0 /* mand-mobile.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "mand-mobile.ttf"; path = "../node_modules/mand-mobile-rn/src/assets/fonts/mand-mobile.ttf"; sourceTree = "<group>"; };
-		408BAD437EA44ECFA4202F38 /* DIN Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "DIN Medium.ttf"; path = "../node_modules/mand-mobile-rn/src/assets/fonts/DIN Medium.ttf"; sourceTree = "<group>"; };
+		0B96710034AD46ADAB9E16C0 /* mand-mobile.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "mand-mobile.ttf"; path = "../node_modules/mand-mobile-rn/src/assets/fonts/mand-mobile.ttf"; sourceTree = "<group>"; };
+		408BAD437EA44ECFA4202F38 /* DIN Medium.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "DIN Medium.ttf"; path = "../node_modules/mand-mobile-rn/src/assets/fonts/DIN Medium.ttf"; sourceTree = "<group>"; };
 		94DD006022D5E17C00D93DFC /* MandMobileRNSamples.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MandMobileRNSamples.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		94DD006322D5E17C00D93DFC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		94DD006422D5E17C00D93DFC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -30,7 +30,7 @@
 		94DD007122D5E17D00D93DFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		94DD007222D5E17D00D93DFC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B2C6B9DD77FFF54439D217B6 /* Pods-MandMobileRNSamples.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MandMobileRNSamples.release.xcconfig"; path = "Pods/Target Support Files/Pods-MandMobileRNSamples/Pods-MandMobileRNSamples.release.xcconfig"; sourceTree = "<group>"; };
-		CA332E7560274C37A507A7E6 /* FD+_Number.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = undefined; includeInIndex = 0; lastKnownFileType = unknown; name = "FD+_Number.otf"; path = "../node_modules/mand-mobile-rn/src/assets/fonts/FD+_Number.otf"; sourceTree = "<group>"; };
+		CA332E7560274C37A507A7E6 /* FD+_Number.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "FD+_Number.otf"; path = "../node_modules/mand-mobile-rn/src/assets/fonts/FD+_Number.otf"; sourceTree = "<group>"; };
 		DF4983261B78FF14A2077125 /* libPods-MandMobileRNSamples.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MandMobileRNSamples.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA2A026DF19B2B34929FC18E /* Pods-MandMobileRNSamples.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MandMobileRNSamples.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MandMobileRNSamples/Pods-MandMobileRNSamples.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -64,7 +64,6 @@
 				0B96710034AD46ADAB9E16C0 /* mand-mobile.ttf */,
 			);
 			name = Resources;
-			path = "";
 			sourceTree = "<group>";
 		};
 		94DD005722D5E17C00D93DFC = {
@@ -450,16 +449,18 @@
 			baseConfigurationReference = EA2A026DF19B2B34929FC18E /* Pods-MandMobileRNSamples.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Manual;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 653FGKQN5U;
 				INFOPLIST_FILE = MandMobileRNSamples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.xiaojukeji.finance.inhouse;
+				PRODUCT_BUNDLE_IDENTIFIER = com.xiaojukeji.finance.mandmobile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = manhattan_common_dev;
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -473,6 +474,7 @@
 				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = HCTZ8VKJ47;
 				INFOPLIST_FILE = MandMobileRNSamples/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
