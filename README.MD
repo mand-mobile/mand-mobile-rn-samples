@@ -2,7 +2,7 @@
 
 This is a  [mand-mobile-rn](https://github.com/didi/mand-mobile-rn) project example.
 
-<img src="https://pt-starimg.didistatic.com/static/starimg/img/QaoruH4flv1569229959725.png" alt="image" style="zoom:50%;" />
+<img src="https://pt-starimg.didistatic.com/static/starimg/img/QaoruH4flv1569229959725.png" alt="image" width="400" />
 
 
 
