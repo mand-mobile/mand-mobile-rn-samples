@@ -1,6 +1,6 @@
 PODS:
   - boost-for-react-native (1.63.0)
-  - BVLinearGradient (2.5.4):
+  - BVLinearGradient (2.5.6):
     - React
   - DoubleConversion (1.1.6)
   - Folly (2018.10.22.00):
@@ -8,19 +8,19 @@ PODS:
     - DoubleConversion
     - glog
   - glog (0.3.5)
-  - MandMobileRN (0.1.0-beta.1):
-    - MandMobileRN/Core (= 0.1.0-beta.1)
-    - MandMobileRN/MDImagePicker (= 0.1.0-beta.1)
-    - MandMobileRN/MDNumberKeyboard (= 0.1.0-beta.1)
-    - MandMobileRN/MDRefreshControl (= 0.1.0-beta.1)
+  - MandMobileRN (0.1.0-beta.2):
+    - MandMobileRN/Core (= 0.1.0-beta.2)
+    - MandMobileRN/MDImagePicker (= 0.1.0-beta.2)
+    - MandMobileRN/MDNumberKeyboard (= 0.1.0-beta.2)
+    - MandMobileRN/MDRefreshControl (= 0.1.0-beta.2)
     - React
-  - MandMobileRN/Core (0.1.0-beta.1):
+  - MandMobileRN/Core (0.1.0-beta.2):
     - React
-  - MandMobileRN/MDImagePicker (0.1.0-beta.1):
+  - MandMobileRN/MDImagePicker (0.1.0-beta.2):
     - React
-  - MandMobileRN/MDNumberKeyboard (0.1.0-beta.1):
+  - MandMobileRN/MDNumberKeyboard (0.1.0-beta.2):
     - React
-  - MandMobileRN/MDRefreshControl (0.1.0-beta.1):
+  - MandMobileRN/MDRefreshControl (0.1.0-beta.2):
     - MJRefresh (~> 3.1)
     - React
   - MJRefresh (3.2.0)
@@ -81,9 +81,9 @@ PODS:
     - React/Core
     - React/fishhook
     - React/RCTBlob
-  - RNGestureHandler (1.3.0):
+  - RNGestureHandler (1.4.1):
     - React
-  - RNSVG (9.5.1):
+  - RNSVG (9.9.4):
     - React
   - RNVectorIcons (6.6.0):
     - React
@@ -139,15 +139,15 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   boost-for-react-native: 39c7adb57c4e60d6c5479dd8623128eb5b3f0f2c
-  BVLinearGradient: 8cbc5155c978f2e43098818c91d206d07aae6d30
+  BVLinearGradient: e3aad03778a456d77928f594a649e96995f1c872
   DoubleConversion: bb338842f62ab1d708ceb63ec3d999f0f3d98ecd
   Folly: de497beb10f102453a1afa9edbf8cf8a251890de
   glog: aefd1eb5dda2ab95ba0938556f34b98e2da3a60d
-  MandMobileRN: deea8c397ab7498d6908836e52eaf170ba368da0
+  MandMobileRN: 35d90fc2755658dd543a41dad5222844be421906
   MJRefresh: ed450d6eb9d3346a2cb033ab7eb6de090aeef437
   React: 5cb71fb1a15b5ce04794ab49e24b48ebe4c94e65
-  RNGestureHandler: 5329a942fce3d41c68b84c2c2276ce06a696d8b0
-  RNSVG: 0eb087cfb5d7937be93c45b163b26352a647e681
+  RNGestureHandler: 4cb47a93019c1a201df2644413a0a1569a51c8aa
+  RNSVG: 435cda60cd9e1ea6188eb0e21c12fc0f85def8e8
   RNVectorIcons: 0bb4def82230be1333ddaeee9fcba45f0b288ed4
   yoga: 596e61c9b57751d08a22b07aba310dbd3e65ab75
 
